@@ -41,7 +41,39 @@
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 </head>
 <body>
-	<div class="container">
+	
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+
+        <div class="container">
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSite">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSite">
+
+                <!-- <<<<<<< HEAD -->
+                <ul class="navbar-nav mr-auto ">
+
+                    <li class="nav-item  pr-5">
+                        <a class="nav-link" href="index.php">
+                            <h3>Pizza Planet</h3>
+                        </a>
+                    </li>
+                </ul>
+
+
+                <form class="form-inline">
+                    <a href="carrinho.php" class="btn btn-danger" target="_top">Meus Pedidos</a>
+                </form>
+
+            </div>
+
+        </div>
+
+    </nav>
+
+<div class="container">
 		<div class="card mt-5">
 			 <div class="card-body">
 	    		<h4 class="card-title"> Meus Pedidos</h4>
