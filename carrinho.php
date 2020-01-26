@@ -34,7 +34,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Pizza Planet </title>
+	<title>Pizza Planet - Carrinho</title>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" />
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
@@ -74,7 +74,7 @@
     </nav>
 
 <div class="container">
-		<div class="card mt-5">
+		<div class="card my-5">
 			 <div class="card-body">
 	    		<h4 class="card-title"> Meus Pedidos</h4>
 	    		<a class="btn btn-info" href="index.php">Continuar Comprando</a>

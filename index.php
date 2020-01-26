@@ -8,7 +8,7 @@ $pizzas = getPizzas($pdoConnection);
 
 <head>
 	<meta charset="UTF-8">
-	<title>Carrinho de Compras</title>
+	<title>Pizza Planet - Cardapio</title>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" />
 
 </head>
@@ -47,12 +47,12 @@ $pizzas = getPizzas($pdoConnection);
     </nav>
 
 <div class="container">
-		<div class="my-5">
+		<div class="mt-5">
 			<div class="row">
 
 				<?php foreach ($pizzas as $pizza) : ?>
 					<div class="col-4">
-						<div class="card">
+						<div class="card my-3">
 							<div class="card-body">
 								<h4 class="card-title"><?php echo $pizza['sabor'] ?></h4>
 								<h6 class="card-subtitle mb-2 text-muted">
